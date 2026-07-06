@@ -1,3 +1,8 @@
+/**
+ * Design tokens
+ *
+ * Shared colors, spacing, radius, and shadow values used across the resume UI.
+ */
 :root {
   --accent: #4CB4BF;
   --blue: #4F7CFF;
@@ -17,6 +22,11 @@
   --radius: 16px;
 }
 
+/**
+ * Base reset and document defaults
+ *
+ * Normalizes box sizing, typography, page background, and inherited link behavior.
+ */
 * {
   box-sizing: border-box;
 }
@@ -43,6 +53,11 @@ a {
   text-decoration: none;
 }
 
+/**
+ * Floating controls
+ *
+ * Language selector and optional print-mode control displayed on the web version.
+ */
 .language-switcher {
   position: fixed;
   top: 24px;
@@ -174,6 +189,11 @@ a {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 504'%3E%3Cpath fill='%23009b3a' d='M0 0h720v504H0z'/%3E%3Cpath fill='%23ffdf00' d='M360 58 646 252 360 446 74 252z'/%3E%3Ccircle cx='360' cy='252' r='112' fill='%23002776'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='22' d='M256 238c68-20 148-14 224 22'/%3E%3C/svg%3E");
 }
 
+/**
+ * Icon and heading defaults
+ *
+ * Establishes consistent SVG stroke rendering and removes default heading margins.
+ */
 svg {
   display: block;
   fill: none;
@@ -190,6 +210,11 @@ p {
   margin-top: 0;
 }
 
+/**
+ * Sidebar navigation
+ *
+ * Fixed vertical navigation with brand mark and section anchors.
+ */
 .sidebar {
   position: fixed;
   inset: 0 auto 0 0;
@@ -247,6 +272,11 @@ p {
   height: 22px;
 }
 
+/**
+ * Page shell and hero
+ *
+ * Main content wrapper, section spacing, profile header, portrait, and contact grid.
+ */
 .page {
   max-width: 1320px;
   margin-left: 116px;
@@ -257,6 +287,11 @@ p {
   border-bottom: 1px solid rgba(232, 238, 243, 0.78);
 }
 
+/**
+ * Shared card and section primitives
+ *
+ * Reusable card surface, section headings, icon containers, and content blocks.
+ */
 .card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -497,6 +532,11 @@ h1 {
   font-size: 16px;
 }
 
+/**
+ * Experience cards
+ *
+ * Responsive job-card grid with role metadata, timeline dots, and highlighted keywords.
+ */
 .experience-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -569,6 +609,11 @@ h1 {
   font-weight: 700;
 }
 
+/**
+ * Project cards
+ *
+ * Portfolio grid with category accent colors, headers, descriptions, and tag chips.
+ */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -647,6 +692,11 @@ h1 {
   --project-bg: rgba(76, 180, 191, 0.12);
 }
 
+/**
+ * Tag chips
+ *
+ * Small pill labels used for technologies, skills, and project categories.
+ */
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -667,6 +717,11 @@ h1 {
   border-radius: 7px;
 }
 
+/**
+ * Skills grid
+ *
+ * Four-column competency layout for teaching, robotics, computational thinking, and AI.
+ */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -717,6 +772,11 @@ h1 {
   --skill-color: var(--green);
 }
 
+/**
+ * Education timeline
+ *
+ * Chronological academic timeline with pins, status labels, and secondary coursework.
+ */
 .timeline {
   position: relative;
   display: grid;
@@ -818,6 +878,11 @@ h1 {
   font-style: italic;
 }
 
+/**
+ * Additional information cards
+ *
+ * Languages, volunteering, and achievements displayed in the final resume band.
+ */
 .extra-grid {
   display: grid;
   grid-template-columns: 1fr 1.2fr 0.95fr;
@@ -932,6 +997,11 @@ h1 {
   background: rgba(87, 199, 133, 0.12);
 }
 
+/**
+ * Responsive layout
+ *
+ * Tablet and small-desktop adjustments for grids, wrapping, and portrait scale.
+ */
 @media (max-width: 1180px) {
   .sidebar {
     position: static;
@@ -993,6 +1063,11 @@ h1 {
   }
 }
 
+/**
+ * Mobile layout
+ *
+ * Stacks the navigation and content cards for narrow screens.
+ */
 @media (max-width: 760px) {
   .section {
     padding: 30px 20px;
@@ -1075,6 +1150,11 @@ h1 {
   }
 }
 
+/**
+ * Print layout
+ *
+ * A4 portrait rules for browser PDF export, including compact spacing and page-break control.
+ */
 @media print {
   @page {
     size: A4;
@@ -1489,6 +1569,11 @@ h1 {
   }
 }
 
+/**
+ * Forced landscape print layout
+ *
+ * Optional absolute-positioned A4 landscape composition for pages that opt in via body class.
+ */
 @media print {
   body.force-landscape-print {
     padding: 5mm 6mm;
@@ -1881,4 +1966,3 @@ h1 {
     line-height: 1.3;
   }
 }
-

@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cl&oacute;vis Magno - Teaching CV (EN)</title>
+  <title>Clóvis Magno - Teaching CV (EN)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css?v=20260703d">
 </head>
 <body>
+  <!-- Sidebar navigation: fixed in-page links for the teacher-focused resume sections. -->
   <aside class="sidebar" aria-label="Resume navigation">
     <a class="brand" href="#inicio" aria-label="Home">C/M</a>
 
@@ -40,23 +41,28 @@
       </a>
     </nav>
   </aside>
+  <!-- End sidebar navigation. -->
 
+  <!-- Language selector: links between localized teacher resume versions. -->
   <div class="language-switcher" aria-label="Language selector">
     <details>
       <summary><span class="language-current"><span class="flag flag-us" aria-hidden="true"></span><span>English</span></span></summary>
       <div class="language-options">
         <a href="index.html" aria-current="page"><span class="flag flag-us" aria-hidden="true"></span><span>English</span></a>
-        <a href="es.html"><span class="flag flag-es" aria-hidden="true"></span><span>Espa&ntilde;ol</span></a>
-        <a href="pt.html"><span class="flag flag-br" aria-hidden="true"></span><span>Portugu&ecirc;s</span></a>
+        <a href="es.html"><span class="flag flag-es" aria-hidden="true"></span><span>Español</span></a>
+        <a href="pt.html"><span class="flag flag-br" aria-hidden="true"></span><span>Português</span></a>
       </div>
     </details>
   </div>
+  <!-- End language selector. -->
 
+  <!-- Main content: printable teacher-focused resume body. -->
   <main class="page">
+    <!-- Hero section: teaching identity, profile headline, portrait, and contact channels. -->
     <section class="hero section" id="inicio">
       <div class="hero-content">
-        <h1>Cl&oacute;vis Magno Gon&ccedil;alves de Freitas Santos</h1>
-        <h2>Programming and Technology Teacher &bull; Educational Robotics &bull; Computer Engineering Student</h2>
+        <h1>Clóvis Magno Gonçalves de Freitas Santos</h1>
+        <h2>Programming and Technology Teacher • Educational Robotics • Computer Engineering Student</h2>
         <p class="headline">Technology Education <span>|</span> IB MYP <span>|</span> Computational Thinking <span>|</span> Arduino and Robotics <span>|</span> Algorithms for Learning</p>
         <p class="intro">
           Programming and technology teacher with experience designing curriculum, teaching
@@ -104,7 +110,9 @@
         </li>
       </ul>
     </section>
+    <!-- End hero section. -->
 
+    <!-- About section: teaching philosophy and international education focus. -->
     <section class="section about" id="sobre">
       <div class="section-title">
         <h2>About Me</h2>
@@ -115,23 +123,20 @@
         </div>
         <div class="about-copy">
           <p>
-            I am currently studying Computer Engineering at Universidad Pablo de Olavide, in Seville,
-            Spain, and I teach programming, robotics, and technology to students from different ages.
-            My teaching approach prioritizes logical reasoning, problem decomposition, and computational
-            thinking before syntax, commands, or isolated tools.
-          </p>
-          <p>
-            To support that approach in the classroom, I have developed my own materials, from textbooks
-            and progressive learning sequences to assessment rubrics aligned with the IB MYP, working with
-            Scratch as a first contact with programming, Python to develop logic and algorithms in greater
-            depth, and Arduino for robotics projects with sensors, actuators, and embedded systems. I am
-            especially interested in international school environments where technology is taught through
-            inquiry and real projects, not as an isolated subject.
+            Programming and Technology teacher focused on computational thinking, problem decomposition,
+            and project-based learning, working with Scratch, Python, and Arduino in a progression aligned
+            with the IB MYP. Experience developing teaching materials, including textbooks, learning
+            sequences, and assessment rubrics, alongside personal technical projects in automation and
+            artificial intelligence that apply the same structured reasoning logic. I am particularly
+            interested in international school environments where technology is taught through inquiry
+            and real projects, not as an isolated subject.
           </p>
         </div>
       </div>
     </section>
+    <!-- End about section. -->
 
+    <!-- Experience section: classroom, curriculum, and tutoring history. -->
     <section class="section" id="experiencia">
       <div class="section-heading">
         <div class="section-title">
@@ -144,7 +149,7 @@
           <span class="job-dot"></span>
           <h3>Technology and Programming Teacher (IB MYP)</h3>
           <p class="company">Colegio Internacional de Sevilla San Francisco de Paula</p>
-          <p class="meta">2024 - 2026 <span>&bull;</span> Seville, Spain</p>
+          <p class="meta">2024 - 2026 <span>•</span> Seville, Spain</p>
           <ul>
             <li>Taught Programming, Robotics, and Technology with an emphasis on reasoning, problem solving, and computational thinking.</li>
             <li>Developed <strong>textbooks</strong>, annual plans, learning sequences, <strong>Curriculum Design</strong>, and <strong>Instructional Design</strong> materials.</li>
@@ -158,7 +163,7 @@
           <span class="job-dot"></span>
           <h3>Programming Teacher</h3>
           <p class="company">How I Learned Code</p>
-          <p class="meta">Oct. 2022 - 2024 <span>&bull;</span> Gines, Spain</p>
+          <p class="meta">Oct. 2022 - 2024 <span>•</span> Gines, Spain</p>
           <ul>
             <li>Organized and taught programming classes in Python and Scratch for children and teenagers.</li>
             <li>Planned practical activities focused on logic, sequencing, debugging, and computational thinking.</li>
@@ -181,7 +186,9 @@
         </article>
       </div>
     </section>
+    <!-- End experience section. -->
 
+    <!-- Projects section: teaching materials, robotics, algorithms, and supporting technical projects. -->
     <section class="section" id="projetos">
       <div class="section-heading">
         <div class="section-title">
@@ -254,14 +261,16 @@
             <p class="project-kicker">Automation</p>
           </div>
           <h3>Automation Tools</h3>
-          <p>Python applications for automating repetitive tasks and generating reports from scattered data, reducing the time dedicated to manual processes.</p>
+          <p>Python automation pipeline for extracting and organizing data from a web platform. Uses Selenium for authentication, programmatic navigation across sections, and daily CSV/XLSX file downloads, with automatic date-based organization into folders.</p>
           <div class="tags">
             <span>Python</span><span>Selenium</span><span>Automation</span>
           </div>
         </article>
       </div>
     </section>
+    <!-- End projects section. -->
 
+    <!-- Skills section: teaching, robotics, computational thinking, and AI in education. -->
     <section class="section skills" id="habilidades">
       <div class="section-title">
         <h2>Skills</h2>
@@ -278,7 +287,7 @@
         <div class="skill-block skill-purple">
           <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5a3 3 0 0 0-5.6-1.5A3.5 3.5 0 0 0 4 9a3.5 3.5 0 0 0 0 6 3.5 3.5 0 0 0 2.4 5.5A3 3 0 0 0 12 19"/><path d="M12 5a3 3 0 0 1 5.6-1.5A3.5 3.5 0 0 1 20 9a3.5 3.5 0 0 1 0 6 3.5 3.5 0 0 1-2.4 5.5A3 3 0 0 1 12 19"/><path d="M12 5v14"/></svg>Programming and Robotics</h3>
           <div class="tags">
-            <span>Python</span><span>JavaScript</span><span>Scratch</span><span>Java</span><span>C/C++</span><span>Arduino</span><span>Educational Robotics</span><span>Embedded Systems</span><span>Electronics</span><span>Arduino IDE</span><span>VS Code</span><span>GitHub</span><span>Google Colab</span><span>PyCharm</span><span>Spyder</span>
+            <span>Python</span><span>JavaScript</span><span>Scratch</span><span>Java</span><span>C/C++</span><span>Arduino</span><span>Educational Robotics</span><span>Embedded Systems</span><span>Electronics</span><span>Arduino IDE</span><span>VS Code</span><span>GitHub</span><span>Google Colab</span><span>PyCharm</span><span>Spyder</span><span>Selenium</span><span>React</span><span>Firebase/Firestore</span>
           </div>
         </div>
 
@@ -297,7 +306,9 @@
         </div>
       </div>
     </section>
+    <!-- End skills section. -->
 
+    <!-- Education section: chronological academic and technical timeline. -->
     <section class="section education credentials" id="educacao">
       <div class="section-title">
         <h2>Education</h2>
@@ -309,7 +320,7 @@
           <h3>2015 | 2017 - 2019</h3>
           <strong>Technical training and initial Electrical Engineering studies</strong>
           <p><strong class="institution">SENAI Minas Gerais</strong> - Electroelectronics Apprentice (2015)</p>
-          <p><strong class="institution">Centro Universit&aacute;rio Newton Paiva</strong> - Electrical Engineering (2017 - 2018), Belo Horizonte, Brazil</p>
+          <p><strong class="institution">Centro Universitário Newton Paiva</strong> - Electrical Engineering (2017 - 2018), Belo Horizonte, Brazil</p>
           <p>Academic exchange at <strong class="institution">Universitat de Lleida</strong> (2018 - 2019), Lleida, Spain</p>
           <p class="coursework">Coursework: Mechatronics, Digital Electronics, Discrete Mathematics, German, English for Business, Catalan</p>
           <p><span class="status-label">Status:</span> <em class="status-value">partially completed in Brazil; exchange integrated into the same Electrical Engineering track before the permanent move to Spain</em></p>
@@ -335,7 +346,9 @@
         </article>
       </div>
     </section>
+    <!-- End education section. -->
 
+    <!-- Additional information: languages, volunteering, and achievements. -->
     <section class="section extra-grid">
       <article class="card extra-card language-card">
         <h2><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 0 20"/><path d="M12 2a15.3 15.3 0 0 0 0 20"/></svg></span>Languages</h2>
@@ -365,6 +378,8 @@
         <p>Recognized as a standout among engineering projects for the scientific project "LED Lamps: Operation and Ecological Issues Involved", presented at the 16th UFMG Jovem Fair.</p>
       </article>
     </section>
+    <!-- End additional information. -->
   </main>
+  <!-- End main content. -->
 </body>
 </html>

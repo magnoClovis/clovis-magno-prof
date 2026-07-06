@@ -3,20 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cl&oacute;vis Magno - CV Docente (ES)</title>
+  <title>Clóvis Magno - CV Docente (ES)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css?v=20260703d">
 </head>
 <body>
+  <!-- Navegacion lateral: enlaces fijos a las secciones del curriculum docente. -->
   <aside class="sidebar" aria-label="Navegacion del curriculum">
     <a class="brand" href="#inicio" aria-label="Inicio">C/M</a>
 
     <nav class="menu">
       <a href="#sobre" class="active">
         <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.8 12 3l9 7.8"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg>
-        <span>Sobre m&iacute;</span>
+        <span>Sobre mí</span>
       </a>
       <a href="#experiencia">
         <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 6h4"/><path d="M10 6V5a2 2 0 0 1 2-2 2 2 0 0 1 2 2v1"/><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 12h18"/></svg>
@@ -32,7 +33,7 @@
       </a>
       <a href="#educacao">
         <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m22 10-10-5-10 5 10 5 10-5Z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/><path d="M22 10v6"/></svg>
-        <span>Educaci&oacute;n</span>
+        <span>Educación</span>
       </a>
       <a href="#contato">
         <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
@@ -40,29 +41,34 @@
       </a>
     </nav>
   </aside>
+  <!-- Fin de la navegacion lateral. -->
 
+  <!-- Selector de idioma: enlaces entre las versiones localizadas del curriculum docente. -->
   <div class="language-switcher" aria-label="Selector de idioma">
     <details>
-      <summary><span class="language-current"><span class="flag flag-es" aria-hidden="true"></span><span>Espa&ntilde;ol</span></span></summary>
+      <summary><span class="language-current"><span class="flag flag-es" aria-hidden="true"></span><span>Español</span></span></summary>
       <div class="language-options">
         <a href="index.html"><span class="flag flag-us" aria-hidden="true"></span><span>English</span></a>
-        <a href="es.html" aria-current="page"><span class="flag flag-es" aria-hidden="true"></span><span>Espa&ntilde;ol</span></a>
-        <a href="pt.html"><span class="flag flag-br" aria-hidden="true"></span><span>Portugu&ecirc;s</span></a>
+        <a href="es.html" aria-current="page"><span class="flag flag-es" aria-hidden="true"></span><span>Español</span></a>
+        <a href="pt.html"><span class="flag flag-br" aria-hidden="true"></span><span>Português</span></a>
       </div>
     </details>
   </div>
+  <!-- Fin del selector de idioma. -->
 
+  <!-- Contenido principal: cuerpo imprimible del curriculum con foco docente. -->
   <main class="page">
+    <!-- Seccion de presentacion: identidad docente, titular, foto y canales de contacto. -->
     <section class="hero section" id="inicio">
       <div class="hero-content">
-        <h1>Cl&oacute;vis Magno Gon&ccedil;alves de Freitas Santos</h1>
-        <h2>Profesor de Programaci&oacute;n y Tecnolog&iacute;a &bull; Rob&oacute;tica Educativa &bull; Estudiante de Ingenier&iacute;a Inform&aacute;tica</h2>
-        <p class="headline">Tecnolog&iacute;a Educativa <span>|</span> IB MYP <span>|</span> Pensamiento Computacional <span>|</span> Arduino y Rob&oacute;tica <span>|</span> Algoritmos para el Aprendizaje</p>
+        <h1>Clóvis Magno Gonçalves de Freitas Santos</h1>
+        <h2>Profesor de Programación y Tecnología • Robótica Educativa • Estudiante de Ingeniería Informática</h2>
+        <p class="headline">Tecnología Educativa <span>|</span> IB MYP <span>|</span> Pensamiento Computacional <span>|</span> Arduino y Robótica <span>|</span> Algoritmos para el Aprendizaje</p>
         <p class="intro">
-          Profesor de programaci&oacute;n y tecnolog&iacute;a con experiencia en dise&ntilde;o curricular,
-          ense&ntilde;anza del pensamiento computacional y creaci&oacute;n de experiencias pr&aacute;cticas con Python,
-          Scratch, Arduino, rob&oacute;tica y sistemas embebidos. Interesado en entornos internacionales
-          donde la tecnolog&iacute;a se ense&ntilde;e mediante indagaci&oacute;n, proyectos y razonamiento claro.
+          Profesor de programación y tecnología con experiencia en diseño curricular,
+          enseñanza del pensamiento computacional y creación de experiencias prácticas con Python,
+          Scratch, Arduino, robótica y sistemas embebidos. Interesado en entornos internacionales
+          donde la tecnología se enseñe mediante indagación, proyectos y razonamiento claro.
         </p>
 
       </div>
@@ -80,7 +86,7 @@
       <ul class="contact-grid" id="contato" aria-label="Datos de contacto">
         <li>
           <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-          <span>Sevilla, Espa&ntilde;a</span>
+          <span>Sevilla, España</span>
         </li>
         <li>
           <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
@@ -104,10 +110,12 @@
         </li>
       </ul>
     </section>
+    <!-- Fin de la seccion de presentacion. -->
 
+    <!-- Seccion sobre mi: filosofia de ensenanza y foco en educacion internacional. -->
     <section class="section about" id="sobre">
       <div class="section-title">
-        <h2>Sobre m&iacute;</h2>
+        <h2>Sobre mí</h2>
       </div>
       <div class="card about-layout">
         <div class="section-visual visual-teal">
@@ -115,23 +123,20 @@
         </div>
         <div class="about-copy">
           <p>
-            Actualmente estudio Ingenier&iacute;a Inform&aacute;tica en la Universidad Pablo de Olavide, en Sevilla,
-            Espa&ntilde;a, e imparto programaci&oacute;n, rob&oacute;tica y tecnolog&iacute;a a estudiantes de distintas edades.
-            Mi enfoque docente prioriza el razonamiento l&oacute;gico, la descomposici&oacute;n de problemas y el
-            pensamiento computacional antes que la sintaxis, los comandos o las herramientas aisladas.
-          </p>
-          <p>
-            Para sostener ese enfoque en el aula he desarrollado material propio, desde libros did&aacute;cticos
-            y secuencias progresivas hasta r&uacute;bricas de evaluaci&oacute;n alineadas con el IB MYP, trabajando con
-            Scratch como primer contacto con la programaci&oacute;n, Python para desarrollar l&oacute;gica y algoritmia
-            con m&aacute;s profundidad, y Arduino para proyectos de rob&oacute;tica con sensores, actuadores y sistemas
-            embebidos. Me interesan especialmente los entornos escolares internacionales donde la tecnolog&iacute;a
-            se ense&ntilde;a mediante indagaci&oacute;n y proyectos reales, no como asignatura aislada.
+            Profesor de Programación y Tecnología con foco en pensamiento computacional, descomposición
+            de problemas y enseñanza por proyectos, trabajando con Scratch, Python y Arduino en una
+            progresión alineada con el IB MYP. Experiencia desarrollando material didáctico, incluyendo
+            libros didácticos, secuencias de aprendizaje y rúbricas de evaluación, además de proyectos
+            técnicos personales de automatización e inteligencia artificial que aplican esa misma lógica
+            de razonamiento estructurado. Tengo especial interés en entornos escolares internacionales
+            donde la tecnología se enseñe mediante indagación y proyectos reales, no como asignatura aislada.
           </p>
         </div>
       </div>
     </section>
+    <!-- Fin de la seccion sobre mi. -->
 
+    <!-- Seccion de experiencia: historial de aula, curriculo y tutoria. -->
     <section class="section" id="experiencia">
       <div class="section-heading">
         <div class="section-title">
@@ -142,46 +147,48 @@
       <div class="experience-grid">
         <article class="card job-card">
           <span class="job-dot"></span>
-          <h3>Profesor de Tecnolog&iacute;a y Programaci&oacute;n (IB MYP)</h3>
+          <h3>Profesor de Tecnología y Programación (IB MYP)</h3>
           <p class="company">Colegio Internacional de Sevilla San Francisco de Paula</p>
-          <p class="meta">2024 - 2026 <span>&bull;</span> Sevilla, Espa&ntilde;a</p>
+          <p class="meta">2024 - 2026 <span>•</span> Sevilla, España</p>
           <ul>
-            <li>Impart&iacute; Programaci&oacute;n, Rob&oacute;tica y Tecnolog&iacute;a con foco en razonamiento, resoluci&oacute;n de problemas y pensamiento computacional.</li>
-            <li>Desarroll&eacute; <strong>libros did&aacute;cticos</strong>, planes anuales, secuencias did&aacute;cticas, <strong>Curriculum Design</strong> e <strong>Instructional Design</strong>.</li>
-            <li>Planifiqu&eacute; y desarroll&eacute; proyectos pr&aacute;cticos con <strong>Python</strong>, <strong>Arduino</strong>, sensores, actuadores, electr&oacute;nica y <strong>Sistemas Embebidos</strong>.</li>
-            <li>Cre&eacute; criterios de evaluaci&oacute;n, r&uacute;bricas y actividades alineadas con <strong>IB MYP</strong> y <strong>Aprendizaje Basado en Proyectos (PBL)</strong>.</li>
-            <li>Produje contenidos t&eacute;cnicos y pedag&oacute;gicos para conectar conceptos de programaci&oacute;n con sistemas reales.</li>
+            <li>Impartí Programación, Robótica y Tecnología con foco en razonamiento, resolución de problemas y pensamiento computacional.</li>
+            <li>Desarrollé <strong>libros didácticos</strong>, planes anuales, secuencias didácticas, <strong>Curriculum Design</strong> e <strong>Instructional Design</strong>.</li>
+            <li>Planifiqué y desarrollé proyectos prácticos con <strong>Python</strong>, <strong>Arduino</strong>, sensores, actuadores, electrónica y <strong>Sistemas Embebidos</strong>.</li>
+            <li>Creé criterios de evaluación, rúbricas y actividades alineadas con <strong>IB MYP</strong> y <strong>Aprendizaje Basado en Proyectos (PBL)</strong>.</li>
+            <li>Produje contenidos técnicos y pedagógicos para conectar conceptos de programación con sistemas reales.</li>
           </ul>
         </article>
 
         <article class="card job-card">
           <span class="job-dot"></span>
-          <h3>Profesor de Programaci&oacute;n</h3>
+          <h3>Profesor de Programación</h3>
           <p class="company">How I Learned Code</p>
-          <p class="meta">Oct. 2022 - 2024 <span>&bull;</span> Gines, Espa&ntilde;a</p>
+          <p class="meta">Oct. 2022 - 2024 <span>•</span> Gines, España</p>
           <ul>
-            <li>Organic&eacute; e impart&iacute; clases de programaci&oacute;n en Python y Scratch para ni&ntilde;os y adolescentes.</li>
-            <li>Planifiqu&eacute; actividades pr&aacute;cticas centradas en l&oacute;gica, secuenciaci&oacute;n, depuraci&oacute;n y pensamiento computacional.</li>
-            <li>Desarroll&eacute; ejercicios, proyectos y retos adaptados a distintas edades y ritmos de aprendizaje.</li>
-            <li>Realic&eacute; seguimiento del progreso del alumnado y ajust&eacute; actividades para reforzar autonom&iacute;a, confianza y resoluci&oacute;n de problemas.</li>
+            <li>Organicé e impartí clases de programación en Python y Scratch para niños y adolescentes.</li>
+            <li>Planifiqué actividades prácticas centradas en lógica, secuenciación, depuración y pensamiento computacional.</li>
+            <li>Desarrollé ejercicios, proyectos y retos adaptados a distintas edades y ritmos de aprendizaje.</li>
+            <li>Realicé seguimiento del progreso del alumnado y ajusté actividades para reforzar autonomía, confianza y resolución de problemas.</li>
           </ul>
         </article>
 
         <article class="card job-card">
           <span class="job-dot"></span>
           <h3>Profesor Particular</h3>
-          <p class="company">Aut&oacute;nomo</p>
+          <p class="company">Autónomo</p>
           <p class="meta">2016 - 2024</p>
           <ul>
-            <li>Impart&iacute; clases particulares de programaci&oacute;n, matem&aacute;ticas, f&iacute;sica, qu&iacute;mica, biolog&iacute;a, ingl&eacute;s y espa&ntilde;ol.</li>
-            <li>Desarroll&eacute; planes de estudio personalizados seg&uacute;n objetivos, dificultades y ritmo de cada estudiante.</li>
-            <li>Prepar&eacute; materiales de apoyo, listas de ejercicios y pr&aacute;cticas guiadas para refuerzo y preparaci&oacute;n acad&eacute;mica.</li>
-            <li>Apoy&eacute; a estudiantes de Secundaria y preparaci&oacute;n de asignaturas espec&iacute;ficas mediante explicaciones estructuradas.</li>
+            <li>Impartí clases particulares de programación, matemáticas, física, química, biología, inglés y español.</li>
+            <li>Desarrollé planes de estudio personalizados según objetivos, dificultades y ritmo de cada estudiante.</li>
+            <li>Preparé materiales de apoyo, listas de ejercicios y prácticas guiadas para refuerzo y preparación académica.</li>
+            <li>Apoyé a estudiantes de Secundaria y preparación de asignaturas específicas mediante explicaciones estructuradas.</li>
           </ul>
         </article>
       </div>
     </section>
+    <!-- Fin de la seccion de experiencia. -->
 
+    <!-- Seccion de proyectos: materiales didacticos, robotica, algoritmos y proyectos tecnicos de apoyo. -->
     <section class="section" id="projetos">
       <div class="section-heading">
         <div class="section-title">
@@ -195,12 +202,12 @@
             <div class="section-visual">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15Z"/><path d="M8 6h8"/><path d="M8 10h8"/></svg>
             </div>
-            <p class="project-kicker">Material did&aacute;ctico</p>
+            <p class="project-kicker">Material didáctico</p>
           </div>
-          <h3>Libros Did&aacute;cticos y Curr&iacute;culo de Programaci&oacute;n</h3>
-          <p>Desarrollo de libros did&aacute;cticos, planes anuales, secuencias did&aacute;cticas, evaluaciones y actividades de aula para ense&ntilde;ar Python, Scratch, Arduino y pensamiento computacional mediante proyectos progresivos.</p>
+          <h3>Libros Didácticos y Currículo de Programación</h3>
+          <p>Desarrollo de libros didácticos, planes anuales, secuencias didácticas, evaluaciones y actividades de aula para enseñar Python, Scratch, Arduino y pensamiento computacional mediante proyectos progresivos.</p>
           <div class="tags">
-            <span>Curriculum Design</span><span>Instructional Design</span><span>Evaluaci&oacute;n</span>
+            <span>Curriculum Design</span><span>Instructional Design</span><span>Evaluación</span>
           </div>
         </article>
 
@@ -209,12 +216,12 @@
             <div class="section-visual">
               <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M10 10h4v4h-4z"/><path d="M9 2v3"/><path d="M15 2v3"/><path d="M9 19v3"/><path d="M15 19v3"/><path d="M2 9h3"/><path d="M2 15h3"/><path d="M19 9h3"/><path d="M19 15h3"/></svg>
             </div>
-            <p class="project-kicker">Rob&oacute;tica educativa</p>
+            <p class="project-kicker">Robótica educativa</p>
           </div>
-          <h3>Proyectos de Aprendizaje con Arduino y Rob&oacute;tica</h3>
-          <p>Proyectos pr&aacute;cticos para ense&ntilde;ar programaci&oacute;n, electr&oacute;nica, uso de sensores, control y uso de diversos actuadores, pantallas, comunicaci&oacute;n serie y sistemas embebidos mediante rob&oacute;tica educativa y experimentaci&oacute;n en el aula.</p>
+          <h3>Proyectos de Aprendizaje con Arduino y Robótica</h3>
+          <p>Proyectos prácticos para enseñar programación, electrónica, uso de sensores, control y uso de diversos actuadores, pantallas, comunicación serie y sistemas embebidos mediante robótica educativa y experimentación en el aula.</p>
           <div class="tags">
-            <span>Arduino</span><span>Rob&oacute;tica</span><span>Sistemas Embebidos</span>
+            <span>Arduino</span><span>Robótica</span><span>Sistemas Embebidos</span>
           </div>
         </article>
 
@@ -223,10 +230,10 @@
             <div class="section-visual">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 9-4 3 4 3"/><path d="m16 9 4 3-4 3"/><path d="m14 5-4 14"/></svg>
             </div>
-            <p class="project-kicker">L&oacute;gica y algoritmos</p>
+            <p class="project-kicker">Lógica y algoritmos</p>
           </div>
-          <h3>Biblioteca de Algoritmos para Ense&ntilde;ar L&oacute;gica</h3>
-          <p>Implementaci&oacute;n de algoritmos cl&aacute;sicos de b&uacute;squeda y optimizaci&oacute;n (Backtracking, Branch and Bound, Greedy, Divide and Conquer, Hill Climbing, Algoritmos Gen&eacute;ticos), aplicados a la resoluci&oacute;n de problemas computacionales y a la comparaci&oacute;n de distintas estrategias de soluci&oacute;n.</p>
+          <h3>Biblioteca de Algoritmos para Enseñar Lógica</h3>
+          <p>Implementación de algoritmos clásicos de búsqueda y optimización (Backtracking, Branch and Bound, Greedy, Divide and Conquer, Hill Climbing, Algoritmos Genéticos), aplicados a la resolución de problemas computacionales y a la comparación de distintas estrategias de solución.</p>
           <div class="tags">
             <span>Search Algorithms</span><span>Optimization</span><span>Data Structures</span>
           </div>
@@ -240,9 +247,9 @@
             <p class="project-kicker">IA aplicada</p>
           </div>
           <h3>Diario Nutricional Inteligente</h3>
-          <p>Plataforma web que combina persistencia de datos, c&aacute;lculos nutricionales, estimaciones con LLMs y recomendaciones mediante algoritmo gen&eacute;tico. Incluida como proyecto t&eacute;cnico de IA aplicada y desarrollo de software.</p>
+          <p>Plataforma web que combina persistencia de datos, cálculos nutricionales, estimaciones con LLMs y recomendaciones mediante algoritmo genético. Incluida como proyecto técnico de IA aplicada y desarrollo de software.</p>
           <div class="tags">
-            <span>LLMs</span><span>Algoritmos Gen&eacute;ticos</span><span>React</span>
+            <span>LLMs</span><span>Algoritmos Genéticos</span><span>React</span>
           </div>
         </article>
 
@@ -251,17 +258,19 @@
             <div class="section-visual">
               <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="9" y="14" width="6" height="6" rx="1.5"/><path d="M10 7h4"/><path d="M17 10v2a2 2 0 0 1-2 2h-3"/><path d="M7 10v2a2 2 0 0 0 2 2h3"/></svg>
             </div>
-            <p class="project-kicker">Automatizaci&oacute;n</p>
+            <p class="project-kicker">Automatización</p>
           </div>
-          <h3>Herramientas de Automatizaci&oacute;n</h3>
-          <p>Aplicaciones en Python para automatizar tareas repetitivas y generar informes a partir de datos dispersos, reduciendo el tiempo dedicado a procesos manuales.</p>
+          <h3>Herramientas de Automatización</h3>
+          <p>Pipeline de automatización en Python para extraer y organizar datos de una plataforma web. Utiliza Selenium para autenticación, navegación programática entre secciones y descarga diaria de archivos CSV/XLSX, con organización automática por fecha en estructura de carpetas.</p>
           <div class="tags">
-            <span>Python</span><span>Selenium</span><span>Automatizaci&oacute;n</span>
+            <span>Python</span><span>Selenium</span><span>Automatización</span>
           </div>
         </article>
       </div>
     </section>
+    <!-- Fin de la seccion de proyectos. -->
 
+    <!-- Seccion de competencias: ensenanza, robotica, pensamiento computacional e IA aplicada a la educacion. -->
     <section class="section skills" id="habilidades">
       <div class="section-title">
         <h2>Competencias</h2>
@@ -269,102 +278,108 @@
 
       <div class="card skills-grid">
         <div class="skill-block skill-blue">
-          <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 9-4 3 4 3"/><path d="m16 9 4 3-4 3"/><path d="m14 5-4 14"/></svg>Ense&ntilde;anza y Curr&iacute;culo</h3>
+          <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 9-4 3 4 3"/><path d="m16 9 4 3-4 3"/><path d="m14 5-4 14"/></svg>Enseñanza y Currículo</h3>
           <div class="tags">
-            <span>IB MYP</span><span>Aprendizaje Basado en Proyectos</span><span>Curriculum Design</span><span>Instructional Design</span><span>R&uacute;bricas de Evaluaci&oacute;n</span><span>Secuencias Did&aacute;cticas</span>
+            <span>IB MYP</span><span>Aprendizaje Basado en Proyectos</span><span>Curriculum Design</span><span>Instructional Design</span><span>Rúbricas de Evaluación</span><span>Secuencias Didácticas</span>
           </div>
         </div>
 
         <div class="skill-block skill-purple">
-          <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5a3 3 0 0 0-5.6-1.5A3.5 3.5 0 0 0 4 9a3.5 3.5 0 0 0 0 6 3.5 3.5 0 0 0 2.4 5.5A3 3 0 0 0 12 19"/><path d="M12 5a3 3 0 0 1 5.6-1.5A3.5 3.5 0 0 1 20 9a3.5 3.5 0 0 1 0 6 3.5 3.5 0 0 1-2.4 5.5A3 3 0 0 1 12 19"/><path d="M12 5v14"/></svg>Programaci&oacute;n y Rob&oacute;tica</h3>
+          <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5a3 3 0 0 0-5.6-1.5A3.5 3.5 0 0 0 4 9a3.5 3.5 0 0 0 0 6 3.5 3.5 0 0 0 2.4 5.5A3 3 0 0 0 12 19"/><path d="M12 5a3 3 0 0 1 5.6-1.5A3.5 3.5 0 0 1 20 9a3.5 3.5 0 0 1 0 6 3.5 3.5 0 0 1-2.4 5.5A3 3 0 0 1 12 19"/><path d="M12 5v14"/></svg>Programación y Robótica</h3>
           <div class="tags">
-            <span>Python</span><span>JavaScript</span><span>Scratch</span><span>Java</span><span>C/C++</span><span>Arduino</span><span>Rob&oacute;tica Educativa</span><span>Sistemas Embebidos</span><span>Electr&oacute;nica</span><span>Arduino IDE</span><span>VS Code</span><span>GitHub</span><span>Google Colab</span><span>PyCharm</span><span>Spyder</span>
+            <span>Python</span><span>JavaScript</span><span>Scratch</span><span>Java</span><span>C/C++</span><span>Arduino</span><span>Robótica Educativa</span><span>Sistemas Embebidos</span><span>Electrónica</span><span>Arduino IDE</span><span>VS Code</span><span>GitHub</span><span>Google Colab</span><span>PyCharm</span><span>Spyder</span><span>Selenium</span><span>React</span><span>Firebase/Firestore</span>
           </div>
         </div>
 
         <div class="skill-block skill-green">
           <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 8 4-8 4-8-4 8-4Z"/><path d="m4 12 8 4 8-4"/><path d="m4 18 8 4 8-4"/></svg>Pensamiento Computacional</h3>
           <div class="tags">
-            <span>Descomposici&oacute;n de Problemas</span><span>Razonamiento Algor&iacute;tmico</span><span>Depuraci&oacute;n</span><span>Estructuras de Datos</span><span>Algoritmos de B&uacute;squeda</span><span>Algoritmos de Optimizaci&oacute;n</span><span>Programaci&oacute;n Orientada a Objetos</span>
+            <span>Descomposición de Problemas</span><span>Razonamiento Algorítmico</span><span>Depuración</span><span>Estructuras de Datos</span><span>Algoritmos de Búsqueda</span><span>Algoritmos de Optimización</span><span>Programación Orientada a Objetos</span>
           </div>
         </div>
 
         <div class="skill-block skill-teal">
-          <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5a3 3 0 0 0-5.6-1.5A3.5 3.5 0 0 0 4 9a3.5 3.5 0 0 0 0 6 3.5 3.5 0 0 0 2.4 5.5A3 3 0 0 0 12 19"/><path d="M12 5a3 3 0 0 1 5.6-1.5A3.5 3.5 0 0 1 20 9a3.5 3.5 0 0 1 0 6 3.5 3.5 0 0 1-2.4 5.5A3 3 0 0 1 12 19"/><path d="M12 5v14"/></svg>IA Aplicada a la Educaci&oacute;n</h3>
+          <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5a3 3 0 0 0-5.6-1.5A3.5 3.5 0 0 0 4 9a3.5 3.5 0 0 0 0 6 3.5 3.5 0 0 0 2.4 5.5A3 3 0 0 0 12 19"/><path d="M12 5a3 3 0 0 1 5.6-1.5A3.5 3.5 0 0 1 20 9a3.5 3.5 0 0 1 0 6 3.5 3.5 0 0 1-2.4 5.5A3 3 0 0 1 12 19"/><path d="M12 5v14"/></svg>IA Aplicada a la Educación</h3>
           <div class="tags">
-            <span>LLMs</span><span>Prompt Engineering</span><span>Personalizaci&oacute;n del Aprendizaje</span><span>Generaci&oacute;n de Contenidos Did&aacute;cticos</span>
+            <span>LLMs</span><span>Prompt Engineering</span><span>Personalización del Aprendizaje</span><span>Generación de Contenidos Didácticos</span>
           </div>
         </div>
       </div>
     </section>
+    <!-- Fin de la seccion de competencias. -->
 
+    <!-- Seccion de educacion: linea de tiempo academica y tecnica en orden cronologico. -->
     <section class="section education credentials" id="educacao">
       <div class="section-title">
-        <h2>Educaci&oacute;n</h2>
+        <h2>Educación</h2>
       </div>
 
       <div class="card timeline education-timeline">
         <article class="timeline-item">
           <div class="pin"></div>
           <h3>2015 | 2017 - 2019</h3>
-          <strong>Formaci&oacute;n t&eacute;cnica e inicio en Ingenier&iacute;a El&eacute;ctrica</strong>
-          <p><strong class="institution">SENAI Minas Gerais</strong> - Aprendiz en Electroelectr&oacute;nica (2015)</p>
-          <p><strong class="institution">Centro Universit&aacute;rio Newton Paiva</strong> - Ingenier&iacute;a El&eacute;ctrica (2017 - 2018), Belo Horizonte, Brasil</p>
-          <p>Intercambio acad&eacute;mico en <strong class="institution">Universitat de Lleida</strong> (2018 - 2019), Lleida, Espa&ntilde;a</p>
-          <p class="coursework">Asignaturas: Mecatr&oacute;nica, Electr&oacute;nica Digital, Matem&aacute;tica Discreta, Alem&aacute;n, English for Business y Catal&aacute;n</p>
-          <p><span class="status-label">Estado:</span> <em class="status-value">cursada parcialmente en Brasil; intercambio integrado en el mismo itinerario de Ingenier&iacute;a El&eacute;ctrica antes del traslado definitivo a Espa&ntilde;a</em></p>
+          <strong>Formación técnica e inicio en Ingeniería Eléctrica</strong>
+          <p><strong class="institution">SENAI Minas Gerais</strong> - Aprendiz en Electroelectrónica (2015)</p>
+          <p><strong class="institution">Centro Universitário Newton Paiva</strong> - Ingeniería Eléctrica (2017 - 2018), Belo Horizonte, Brasil</p>
+          <p>Intercambio académico en <strong class="institution">Universitat de Lleida</strong> (2018 - 2019), Lleida, España</p>
+          <p class="coursework">Asignaturas: Mecatrónica, Electrónica Digital, Matemática Discreta, Alemán, English for Business y Catalán</p>
+          <p><span class="status-label">Estado:</span> <em class="status-value">cursada parcialmente en Brasil; intercambio integrado en el mismo itinerario de Ingeniería Eléctrica antes del traslado definitivo a España</em></p>
         </article>
 
         <article class="timeline-item">
           <div class="pin"></div>
           <h3>2019 - 2021</h3>
-          <strong>Ingenier&iacute;a El&eacute;ctrica</strong>
+          <strong>Ingeniería Eléctrica</strong>
           <p><strong class="institution">Universidad de Sevilla</strong></p>
-          <p>Sevilla, Espa&ntilde;a</p>
-          <p><span class="status-label">Estado:</span> <em class="status-value">cursada parcialmente - traslado a Ingenier&iacute;a Inform&aacute;tica</em></p>
+          <p>Sevilla, España</p>
+          <p><span class="status-label">Estado:</span> <em class="status-value">cursada parcialmente - traslado a Ingeniería Informática</em></p>
         </article>
 
         <article class="timeline-item">
           <div class="pin"></div>
           <h3>2022 - Presente</h3>
           <span class="timeline-badge">En curso</span>
-          <strong>Ingenier&iacute;a Inform&aacute;tica</strong>
+          <strong>Ingeniería Informática</strong>
           <p><strong class="institution">Universidad Pablo de Olavide</strong></p>
-          <p>Sevilla, Espa&ntilde;a</p>
+          <p>Sevilla, España</p>
           <p><span class="status-label">Estado:</span> <em class="status-value">en curso</em></p>
         </article>
       </div>
     </section>
+    <!-- Fin de la seccion de educacion. -->
 
+    <!-- Informacion adicional: idiomas, voluntariado y logros. -->
     <section class="section extra-grid">
       <article class="card extra-card language-card">
         <h2><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 0 20"/><path d="M12 2a15.3 15.3 0 0 0 0 20"/></svg></span>Idiomas</h2>
         <div class="language-list">
-          <div class="language-row" style="--level:100%"><p><strong>Portugu&eacute;s</strong><span>Nativo</span></p><div class="meter"><i></i></div></div>
-          <div class="language-row" style="--level:98%"><p><strong>Ingl&eacute;s</strong><span>Fluidez Profesional</span></p><div class="meter"><i></i></div></div>
-          <div class="language-row" style="--level:98%"><p><strong>Espa&ntilde;ol</strong><span>Fluidez Profesional</span></p><div class="meter"><i></i></div></div>
-          <div class="language-row" style="--level:40%"><p><strong>Franc&eacute;s</strong><span>B&aacute;sico</span></p><div class="meter"><i></i></div></div>
-          <div class="language-row" style="--level:30%"><p><strong>Alem&aacute;n</strong><span>B&aacute;sico</span></p><div class="meter"><i></i></div></div>
-          <div class="language-row" style="--level:30%"><p><strong>Japon&eacute;s</strong><span>B&aacute;sico</span></p><div class="meter"><i></i></div></div>
-          <div class="language-row" style="--level:30%"><p><strong>Catal&aacute;n</strong><span>B&aacute;sico</span></p><div class="meter"><i></i></div></div>
+          <div class="language-row" style="--level:100%"><p><strong>Portugués</strong><span>Nativo</span></p><div class="meter"><i></i></div></div>
+          <div class="language-row" style="--level:98%"><p><strong>Inglés</strong><span>Fluidez Profesional</span></p><div class="meter"><i></i></div></div>
+          <div class="language-row" style="--level:98%"><p><strong>Español</strong><span>Fluidez Profesional</span></p><div class="meter"><i></i></div></div>
+          <div class="language-row" style="--level:40%"><p><strong>Francés</strong><span>Básico</span></p><div class="meter"><i></i></div></div>
+          <div class="language-row" style="--level:30%"><p><strong>Alemán</strong><span>Básico</span></p><div class="meter"><i></i></div></div>
+          <div class="language-row" style="--level:30%"><p><strong>Japonés</strong><span>Básico</span></p><div class="meter"><i></i></div></div>
+          <div class="language-row" style="--level:30%"><p><strong>Catalán</strong><span>Básico</span></p><div class="meter"><i></i></div></div>
         </div>
       </article>
 
       <article class="card extra-card volunteering-card">
         <h2><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 19 4 12a4 4 0 0 1 6-5l2 2 2-2a4 4 0 0 1 6 5l-7 7a1.4 1.4 0 0 1-2 0Z"/></svg></span>Voluntariado</h2>
         <div class="volunteer-list">
-          <p><strong>First Lego League (2023, 2024 y 2025)</strong><span>Organizaci&oacute;n del evento y acompa&ntilde;amiento de equipos durante la competici&oacute;n realizada en la Universidad Pablo de Olavide.</span></p>
-          <p><strong>MiniMix (2017)</strong><span>Asistente t&eacute;cnico en actividades Maker con Arduino, electr&oacute;nica, impresi&oacute;n 3D, corte l&aacute;ser y fabricaci&oacute;n digital.</span></p>
-          <p><strong>Arduino Day (2018)</strong><span>Participaci&oacute;n en talleres y proyectos orientados al desarrollo de aplicaciones con Arduino y sistemas embebidos.</span></p>
+          <p><strong>First Lego League (2023, 2024 y 2025)</strong><span>Organización del evento y acompañamiento de equipos durante la competición realizada en la Universidad Pablo de Olavide.</span></p>
+          <p><strong>MiniMix (2017)</strong><span>Asistente técnico en actividades Maker con Arduino, electrónica, impresión 3D, corte láser y fabricación digital.</span></p>
+          <p><strong>Arduino Day (2018)</strong><span>Participación en talleres y proyectos orientados al desarrollo de aplicaciones con Arduino y sistemas embebidos.</span></p>
         </div>
       </article>
 
       <article class="card extra-card achievement-card">
         <h2><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0V4Z"/><path d="M5 5H3v3a4 4 0 0 0 4 4"/><path d="M19 5h2v3a4 4 0 0 1-4 4"/></svg></span>Logros</h2>
         <p><strong>Proyecto Destacado - UFMG Jovem (2015)</strong></p>
-        <p>Reconocimiento como proyecto destacado entre los proyectos de ingenier&iacute;a por el proyecto cient&iacute;fico "L&aacute;mparas LED: Funcionamiento y Cuestiones Ecol&oacute;gicas Involucradas", presentado en la 16.&ordf; Feria UFMG Jovem.</p>
+        <p>Reconocimiento como proyecto destacado entre los proyectos de ingeniería por el proyecto científico "Lámparas LED: Funcionamiento y Cuestiones Ecológicas Involucradas", presentado en la 16.ª Feria UFMG Jovem.</p>
       </article>
     </section>
+    <!-- Fin de la informacion adicional. -->
   </main>
+  <!-- Fin del contenido principal. -->
 </body>
 </html>
