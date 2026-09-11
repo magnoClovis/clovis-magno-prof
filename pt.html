@@ -109,6 +109,7 @@
           <a href="https://magnoclovis.github.io/clovis-magno" target="_blank" rel="noopener">magnoclovis.github.io/clovis-magno</a>
         </li>
       </ul>
+      <p class="last-updated" id="last-updated" data-label="Última atualização"></p>
     </section>
     <!-- Fim da secao de apresentacao. -->
 
@@ -145,6 +146,18 @@
       </div>
 
       <div class="experience-grid">
+        <article class="card job-card">
+          <span class="job-dot"></span>
+          <h3>Desenvolvedor de Software Independente</h3>
+          <p class="company">Trofia (nutrition-tracker)</p>
+          <p class="meta">2026 - Presente <span>•</span> Sevilha, Espanha</p>
+          <ul>
+            <li>Projetei, construí e lancei <strong>Trofia</strong> de ponta a ponta: um aplicativo de nutrição disponível na web e como app nativa de <strong>Android</strong>, usada diariamente por beta testers reais, aplicando o mesmo enfoque estruturado e rigoroso que trago para o ensino de conceitos técnicos na sala de aula.</li>
+            <li>Integrei reconhecimento de refeições por foto com <strong>Gemini</strong> e análise textual de pratos, protegidos por uma camada dedicada de <strong>autenticação e limitação de taxa</strong>.</li>
+            <li>Desenvolvi uma <strong>suíte de mais de 100 testes automatizados</strong> (unitários + <strong>Playwright</strong> ponta a ponta) integrada a um pipeline de <strong>CI/CD</strong> via <strong>GitHub Actions</strong>, validando cada alteração antes do lançamento.</li>
+          </ul>
+        </article>
+
         <article class="card job-card">
           <span class="job-dot"></span>
           <h3>Professor de Tecnologia e Programação (IB MYP)</h3>
@@ -246,10 +259,10 @@
             </div>
             <p class="project-kicker">IA aplicada</p>
           </div>
-          <h3>Diário Nutricional Inteligente</h3>
-          <p>Plataforma web que combina persistência de dados, cálculos nutricionais, estimativas com LLMs e recomendações por algoritmo genético. Incluído como projeto técnico de IA aplicada e desenvolvimento de software.</p>
+          <h3>Trofia (Nutrition Tracker)</h3>
+          <p>Aplicativo pessoal de nutrição disponível na web e em Android, que combina acompanhamento de <strong>alimentos</strong> e <strong>água</strong>, <strong>análises semanais</strong>, <strong>histórico de composição corporal</strong> e uma <strong>despensa inteligente</strong>. Integra reconhecimento de refeições por foto com <strong>Gemini</strong> e análise textual de pratos, protegido por uma camada dedicada de <strong>autenticação e limitação de taxa</strong>, além de um <strong>motor de pontuação contextual de 0 a 5</strong>. Desenvolvido com <strong>React</strong> e <strong>Firebase</strong>, com arquitetura <strong>offline-first</strong> e cobertura de testes automatizados via <strong>Playwright</strong> e <strong>CI/CD</strong>.</p>
           <div class="tags">
-            <span>LLMs</span><span>Algoritmos Genéticos</span><span>React</span>
+            <span>React</span><span>Firebase</span><span>Gemini</span><span>Playwright</span><span>CI/CD</span><span>Algoritmo Genético</span>
           </div>
         </article>
 
@@ -381,5 +394,27 @@
     <!-- Fim das informacoes adicionais. -->
   </main>
   <!-- Fim do conteudo principal. -->
+  <script>
+    (function () {
+      const updated = document.getElementById('last-updated');
+      if (!updated) {
+        return;
+      }
+
+      const localeByLabel = {
+        'Last updated': 'en-US',
+        'Última actualización': 'es-ES',
+        'Última atualização': 'pt-BR',
+      };
+
+      const label = updated.dataset.label || 'Last updated';
+      const locale = localeByLabel[label] || 'en-US';
+      const monthYear = new Intl.DateTimeFormat(locale, {
+        month: 'long',
+        year: 'numeric',
+      }).format(new Date());
+      updated.textContent = `${label}: ${monthYear}`;
+    })();
+  </script>
 </body>
 </html>

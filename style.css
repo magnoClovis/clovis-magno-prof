@@ -388,6 +388,15 @@ h1 {
   transition: color 0.2s ease;
 }
 
+.last-updated {
+  grid-column: 1 / -1;
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.01em;
+}
+
 .contact-grid a:hover {
   color: var(--accent);
 }
@@ -1245,6 +1254,10 @@ h1 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 4px 10px;
     font-size: 8.6px;
+  }
+
+  .last-updated {
+    display: none;
   }
 
   .contact-icon {
